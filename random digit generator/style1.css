@@ -1,0 +1,68 @@
+body {
+    font-family: cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url("https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg"); 
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px; 
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    width: 320px; 
+    border: 1px solid #dddddd; 
+    background: linear-gradient(135deg, #f8ffff 0%, #e0f7fa 100%); 
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #5F9EA0; 
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #555555; 
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f7f9fc; 
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color:#5F9EA0; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #AFE1AF; 
+    transform: translateY(-2px); 
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333333; 
+    font-weight: bold;
+}
